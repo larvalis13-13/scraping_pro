@@ -19,19 +19,20 @@
 
    
 2. Создайте виртуальное окружение:
-   python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
+    python3 -m venv venv
+    source venv/bin/activate  # Linux/Mac
 # или
-venv\Scripts\activate     # Windows
+    venv\Scripts\activate     # Windows
 
 3. Установите зависимости:
-pip install playwright beautifulsoup4 openpyxl requests
-playwright install chromium
+    pip install playwright beautifulsoup4 openpyxl requests
+    playwright install chromium
 
 Скрипты
-test_playwright.py — тест браузера
-bypass_blocks.py — обход блокировок (User-Agent, задержки)
-parse_js_to_excel.py — парсинг цитат в Excel
-parse_ecommerce.py — парсер Labirint (книги, цены, ссылки)
+    test_playwright.py — тест браузера
+    bypass_blocks.py — обход блокировок (User-Agent, задержки)
+    parse_js_to_excel.py — парсинг цитат в Excel
+    parse_ecommerce.py — парсер Labirint (книги, цены, ссылки)
+
 Технологии
-Playwright, BeautifulSoup, OpenPyXL
+    Playwright, BeautifulSoup, OpenPyXL
